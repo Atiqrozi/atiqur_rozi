@@ -26,7 +26,7 @@ export default function About() {
           Biography
         </span>
         <h2 className="section-title text-4xl mb-4 font-bold text-text">
-          About Atiqur Rozi
+          About Me
         </h2>
         <div className="section-divider w-14 h-[3px] bg-gradient-to-r from-primary to-accent mx-auto rounded-full"></div>
       </div>
