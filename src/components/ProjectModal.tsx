@@ -43,7 +43,7 @@ const projectDetailsData: Record<string, ProjectData> = {
       { name: "Inference Speed", val: "32ms / image" },
       { name: "Dataset size", val: "600 motifs" }
     ],
-    repo: "https://github.com/atiqurrozi/batik-vision",
+    repo: "https://github.com/Atiqrozi/BE_batikVision",
     live: "https://www.batikvision.site/"
   },
   "cv-screening": {
@@ -64,7 +64,7 @@ const projectDetailsData: Record<string, ProjectData> = {
       { name: "Average Parser Speed", val: "1.2s / resume" },
       { name: "Format Compatibility", val: "PDF" }
     ],
-    repo: "https://github.com/atiqurrozi/ai-cv-screening",
+    repo: "https://github.com/Atiqrozi/frontend-cvscreening",
     live: "https://frontend-cvscreening.vercel.app/"
   },
   "lung-ai": {
@@ -85,7 +85,7 @@ const projectDetailsData: Record<string, ProjectData> = {
       { name: "Model Precision", val: "91.6%" },
       { name: "Risk Categorizations", val: "2 Levels" }
     ],
-    repo: "https://github.com/atiqurrozi/lung-cancer-detection",
+    repo: "https://github.com/Atiqrozi/lungai",
     live: "https://lungai-pi.vercel.app/"
   }
 };
