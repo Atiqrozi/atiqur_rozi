@@ -23,7 +23,7 @@ const aiResponses: Record<string, string> = {
   skills: "Atiqur is skilled in:<br>• <strong>Languages</strong>: Python, C++, SQL<br>• <strong>ML Frameworks</strong>: PyTorch, TensorFlow, Scikit-Learn<br>• <strong>NLP & Vision</strong>: Hugging Face transformers, BERT, YOLOv8, OpenCV, Spacy, MobileNetV2, EfficientNet-B4 <br>• <strong>MLOps & Web</strong>: Docker, FastAPI, Flask, Hugging Face Spaces",
   contact: "You can contact Atiqur via email at <strong>atiqrozi14@gmail.com</strong> or by submitting the contact form on this page. You can also visit his GitHub and LinkedIn profiles via the footer links.",
   about: "Atiqur Rozi is an AI & Machine Learning Engineer who builds production-ready intelligent software. He works heavily on Deep Learning models, Natural Language processing pipelines, and MLOps deployment.",
-  default: "That's an interesting question! While I'm simulated locally, I'd suggest checking out Atiqur's core competencies using the suggestion chips below, or contacting him directly via the contact form or email at <strong>atiqur.rozi@example.com</strong>."
+  default: "That's an interesting question! While I'm simulated locally, I'd suggest checking out Atiqur's core competencies using the suggestion chips below, or contacting him directly via the contact form or email at <strong>atiqrozi14@gmail.com</strong>."
 };
 
 export default function AIChat({ isOpen, onClose }: AIChatProps) {

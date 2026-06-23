@@ -131,7 +131,7 @@ export default function Home() {
               </a>
               {/* Email */}
               <a
-                href="mailto:atiqur.rozi@example.com"
+                href="mailto:atiqrozi14@gmail.com"
                 aria-label="Email Atiqur"
                 className="social-link w-9 h-9 rounded-full border border-border bg-white flex items-center justify-center text-text transition-all duration-200 hover:bg-primary hover:text-white hover:border-primary hover:-translate-y-[2px]"
               >
