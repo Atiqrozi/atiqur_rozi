@@ -40,7 +40,7 @@ export default function Navbar({ onOpenAIChat }: NavbarProps) {
       setScrolled(window.scrollY > 50);
 
       // Section highlighters
-      const sections = ["home", "projects", "about", "contact"];
+      const sections = ["home", "projects", "journey", "about", "contact"];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -131,7 +131,7 @@ export default function Navbar({ onOpenAIChat }: NavbarProps) {
               : "md:flex hidden pointer-events-auto md:opacity-100"
           }`}
         >
-          {["home", "projects", "about", "contact"].map((section) => (
+          {["home", "projects", "journey", "about", "contact"].map((section) => (
             <li key={section} className="w-full text-center md:w-auto">
               <a
                 href={`#${section}`}

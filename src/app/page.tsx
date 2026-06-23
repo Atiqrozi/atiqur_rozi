@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
+import Journey from "@/components/Journey";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import ProjectModal from "@/components/ProjectModal";
@@ -42,6 +43,7 @@ export default function Home() {
       <main>
         <Hero onOpenAIChat={handleOpenAIChat} />
         <Projects onSelectProject={handleSelectProject} />
+        <Journey />
         <About />
         <Contact />
       </main>
