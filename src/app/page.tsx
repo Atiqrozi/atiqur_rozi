@@ -109,7 +109,7 @@ export default function Home() {
               </a>
               {/* Hugging Face (Custom vector) */}
               <a
-                href="https://huggingface.co"
+                href="https://huggingface.co/atiqroz1"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Hugging Face Spaces"
